@@ -71,5 +71,8 @@ body{
         font-size: 15px;
         color: #000000;
     }
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
