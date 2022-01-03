@@ -21,7 +21,13 @@ body{
 .container > div{
     width: 30%;
     margin: 10px 0 ;
+    border: 2px solid #6614c4;
+    color:#9c29df;
 
+}
+.container > div p{
+    color:#c9156f;
+    font-size: 20px;
 }
 .flexbox1{
     background: linear-gradient(to right, rgba(26, 19, 19, 0.24), rgb(204, 83, 194));
@@ -47,5 +53,23 @@ body{
 .grid-container > div{
     background:linear-gradient( rgba(49, 201, 36, 0.753), #c54837);
     padding: 10px;
+
+}
+
+@media(max-width:678px){
+    .container{
+        flex-direction:column;
+        align-content: center;
+    }
+    .container > div{
+        width: 80%;
+        margin: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .container > div p{
+        font-size: 15px;
+        color: #000000;
+    }
 
 }
